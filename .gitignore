@@ -1,0 +1,67 @@
+# Node modules (for Node.js projects)
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+bower_components/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package distribution #
+########################
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Build directories
+/dist
+/build
+/out
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# Windows system files
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Git
+.git/
+
+# Ignore everything in "temp" folder except .keep file
+temp/*
+!temp/.keep

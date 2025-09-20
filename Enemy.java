@@ -15,5 +15,32 @@ public class Enemy {
     public void moveWest() {if(col>0)col--;}
     public void moveEast() {if(col<4)col++;}
 
-    public 
+    public void moveTowards(Player player){
+
+    }
+
+    public void moveRandom(){
+        int random = (int)(Math.random()* 4);
+
+        switch (random) {
+            case 0:
+                moveNorth();
+                break;
+            
+            case 1:
+                moveSouth();
+                break;
+            
+            case 2:
+                moveEast();
+                break;
+            
+            case 3:
+                moveWest();
+                break;
+            
+            default:
+                break;
+        }
+    }
 }
