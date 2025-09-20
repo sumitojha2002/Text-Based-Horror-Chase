@@ -84,6 +84,7 @@ public class Game {
 
             count++;
         }
+        sc.close();
     }
 
 }
