@@ -16,7 +16,10 @@ public class Enemy {
     public void moveEast() {if(col<4)col++;}
 
     public void moveTowards(Player player){
-
+    if(this.row < player.getRow()) moveSouth();
+    else if(this.row > player.getRow()) moveNorth();
+    else if(this.col < player.getCol()) moveEast();
+    else if(this.col > player.getCol()) moveWest();
     }
 
     public void moveRandom(){
